@@ -1,16 +1,15 @@
-# attendance_app
+## attendance_app
 
-A new Flutter project.
+This is a Flutter project for internship assessment
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+**List View & Sorting**: Records displayed from newest to oldest.
+**Time Formats**: Toggle between "time ago" and "dd MMM yyyy, h:mm a".
+**Persistence**: Selected time format is retained across app sessions.
+**Add Records**: Easily add new attendance records.
+**Success Indicator**: Visual feedback on successful record addition.
+**Search**: Keyword-based search through records.
+**Detailed View**: Access individual record details.
+**End-of-List Indicator**: Alert when scrolling to the list's end.
+**Onboarding**: New user guide for app usage.
+**Data Sharing**: Share contact info from records.
