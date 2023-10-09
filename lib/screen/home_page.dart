@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => AddAttandanceRecordScreen(
+        builder: (context) => AddAttendanceRecordScreen(
             attendance: newAttendance,
             onSave: (attendance) {
               setState(() {
@@ -95,13 +95,6 @@ class _HomePageState extends State<HomePage> {
       }).toList();
     });
   }
-
-  // void _openSearchPage() {
-  //   Navigator.pushNamed(context, SearchPage.routeName, arguments: {
-  //     'attendance': _filteredAttendance,
-  //     'onSearch': onSearch,
-  //   });
-  // }
 
   void onSearch(List<Attendance> filteredList) {
     setState(() {

@@ -1,21 +1,22 @@
 import 'package:attendance_record/models/attendance.dart';
 import 'package:flutter/material.dart';
 
-class AddAttandanceRecordScreen extends StatefulWidget {
+//DEFINE LIST AND SAVE
+class AddAttendanceRecordScreen extends StatefulWidget {
   final Attendance attendance;
   final void Function(Attendance) onSave;
-  const AddAttandanceRecordScreen({
+  const AddAttendanceRecordScreen({
     Key? key,
     required this.attendance,
     required this.onSave,
   }) : super(key: key);
 
   @override
-  State<AddAttandanceRecordScreen> createState() =>
-      _AddAttandanceRecordScreenState();
+  State<AddAttendanceRecordScreen> createState() =>
+      _AddAttendanceRecordScreenState();
 }
-
-class _AddAttandanceRecordScreenState extends State<AddAttandanceRecordScreen> {
+//CONTROLLER
+class _AddAttendanceRecordScreenState extends State<AddAttendanceRecordScreen> {
   final _formKey = GlobalKey<FormState>();
   final _nameController = TextEditingController();
   final _phoneNumberController = TextEditingController();
@@ -29,6 +30,7 @@ class _AddAttandanceRecordScreenState extends State<AddAttandanceRecordScreen> {
     _checkInController.text = widget.attendance.checkIn.toIso8601String();
   }
 
+//UI 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -74,6 +76,7 @@ class _AddAttandanceRecordScreenState extends State<AddAttandanceRecordScreen> {
                   prefixIcon: Icon(Icons.timer_rounded),
                 ),
               ),
+              //SAVE
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {

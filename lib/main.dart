@@ -76,7 +76,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
     );
     return IntroductionScreen(
       key: introKey,
-      globalBackgroundColor: Colors.white,
+      globalBackgroundColor: const Color.fromARGB(255, 70, 60, 60),
       allowImplicitScrolling: true,
       autoScrollDuration: 3000,
       globalHeader: const Align(

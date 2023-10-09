@@ -27,12 +27,12 @@ List<Attendance> Dummy_Data = [
   Attendance(
     user: "Cristiano Messi",
     phoneNum: "0108727772",
-    checkIn: DateTime.parse('2023-10-02 09:40:11'),
+    checkIn: DateTime.parse('2020-10-02 09:40:11'),
   ),
   Attendance(
     user: "Ronaldo Dicaprio",
     phoneNum: "0197479988",
-    checkIn: DateTime.parse('2023-10-05 13:20:28'),
+    checkIn: DateTime.parse('2020-10-05 13:20:28'),
   ),
   Attendance(
     user: "Einstein",
@@ -47,6 +47,6 @@ List<Attendance> Dummy_Data = [
   Attendance(
     user: "Kim Jong Un",
     phoneNum: "0179290332",
-    checkIn: DateTime.parse('2023-10-09 12:59:45'),
+    checkIn: DateTime.parse('2023-10-08 13:59:45'),
   ),
 ];

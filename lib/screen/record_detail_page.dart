@@ -30,6 +30,7 @@ class _RecordDetailsPageState extends State<RecordDetailsPage> {
           ),
         ],
       ),
+      //display details
       body: SingleChildScrollView(
         child: Card(
           child: Padding(
