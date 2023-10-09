@@ -1,7 +1,5 @@
 import 'package:attendance_record/dummy_data.dart';
-//import 'package:attendance_record/models/attendance.dart';
 import 'package:attendance_record/screen/home_page.dart';
-//import 'package:attendance_record/screen/search_page.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

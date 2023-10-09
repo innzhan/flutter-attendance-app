@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                   AnimatedIconItem(
                     icon: Icon(
                       Icons.search,
-                      color: Color.fromARGB(255, 218, 237, 47),
+                      color: Color.fromARGB(255, 255, 255, 255),
                     ),
                   ),
                 ],
@@ -182,7 +182,7 @@ class _HomePageState extends State<HomePage> {
               Transform.scale(
                 scale: 0.7,
                 child: Switch(
-                  activeColor: Colors.blue,
+                  activeColor: const Color.fromARGB(255, 255, 255, 255),
                   value: _isToggle,
                   onChanged: (value) {
                     setState(() {

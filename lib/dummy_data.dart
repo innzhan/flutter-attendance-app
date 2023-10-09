@@ -2,7 +2,7 @@
 
 import 'models/attendance.dart';
 
-// ignore: unnecessary_const
+// as the given dataset's timestamp is old, i generated a new dataset with newer timestamp
 List<Attendance> Dummy_Data = [
   Attendance(
     user: "Lai Xiu Ling",
